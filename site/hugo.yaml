@@ -33,9 +33,9 @@ markup:
       unsafe: true
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
-  favicon: "/fav.png"
+  title: "MyProfile"
+  description: "개인 포트폴리오 사이트"
+  favicon: "/favic.png"
   useBootstrapCDN: false
   mathjax: false
   animate: true
@@ -114,7 +114,7 @@ params:
         - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
-        - icon: /fav.png
+        - icon: /favic.png
           url: "https://example.com"
 
   # About
@@ -159,7 +159,7 @@ params:
                   url: https://example.com
                   # tooltip: Example tooltip content
               customIcons:
-                - icon: /fav.png
+                - icon: /favic.png
                   url: "https://example.com"
                   tooltip: Example tooltip content
           - name: "Software Developer"
@@ -191,7 +191,7 @@ params:
               - icon: fab fa-x-twitter
                 url: https://example.com
             customIcons:
-              - icon: /fav.png
+              - icon: /favic.png
                 url: "https://example.com"
           content: |
             I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
