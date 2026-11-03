@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://github.com/pseojin103/MyFirstProfil-PSJ.git"
 languageCode: "ko-kr"
-title: "Hugo Profile"
+title: "MyProfile-PSJ"
 
 
 # 단일 한국어 메뉴 설정
