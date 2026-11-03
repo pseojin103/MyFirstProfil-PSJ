@@ -93,14 +93,15 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    intro: "안녕하세요"
+    title: "박서진입니다."
+    subtitle: "관심 분야: 인공지능"
+    content: "안녕하세요, 전북대 컴퓨터인공지능학부 2학년 재학중인 박서진이라고 합니다. 
+              제 관심분야는 인공지능입니다. 
+              인공지능을 선택한 이유는 수학적인 레이어들을 쌓아가며 다양한 분야에 적용하는 것에 매력을 느껴 선택하게 되었습니다."
+    image: /images/itsme.jpg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -111,11 +112,6 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /favic.png
-          url: "https://example.com"
 
   # About
   about:
