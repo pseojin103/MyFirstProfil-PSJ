@@ -6,16 +6,6 @@ title: "Hugo Profile"
 # 단일 한국어 메뉴 설정
 Menus:
   main:
-    - identifier: blog
-      name: "블로그"
-      title: "블로그 포스트"
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: "갤러리"
-      title: "이미지 갤러리"
-      url: /gallery
-      weight: 2
 
 outputs:
   home:
@@ -361,7 +351,7 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
