@@ -5,7 +5,7 @@ title: "Hugo Profile"
 
 # 단일 한국어 메뉴 설정
 Menus:
-  main:
+  main: []
 
 outputs:
   home:
