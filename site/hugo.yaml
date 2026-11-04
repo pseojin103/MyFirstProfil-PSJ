@@ -124,29 +124,6 @@ params:
 
                       도구 선택 이유: LLM만을 사용하여 이해하며 넘어가고 싶어서 제미나이를 선택했습니다.
                       "
-
-
-      - company: "대표 활동 2"
-        companyUrl: "#projects"
-        jobs:
-          - name: "추후 추가 예정입니다."
-            
-
-      - company: "대표 활동 3"
-        companyUrl: "#projects"
-        jobs: 
-        - name: "추후 추가 예정입니다."
-          
-
-      - company: "대표 활동 4"
-        companyUrl: "#projects"
-        jobs:
-        - name: "추후 추가 예정입니다."
-
-      - company: "대표 활동 5"
-        companyUrl: "#projects"
-        jobs:
-        - name: "추후 추가 예정입니다."
        
   # Education
   education:
