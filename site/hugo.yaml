@@ -213,36 +213,30 @@ params:
     title: "역량 및 적용 사례"
     index: false
     items:
-      - title: "[주요 역량 1: 예) C / Linux System Programming]"
+      - title: "역량1"
         school:
           name: "적용 분야 / 주 기술 스택"
           url: "#"
         date: "2026.03 - 현재"
         GPA: "숙련도: 상"
         content: |-
-          [3] 역량 적용 사례:
+          역량 적용 사례:
           어떤 문제를 해결할 때 본 역량을 적용해 보았는지 사례 설명 작성.
-      - title: "Bachelor of Science in Computer Science"
+      - title: "역량 2"
         school:
-          name: "Massachusetts Institute of Technology"
+          name: "적용 분야 / 주 기술 스택"
           url: "https://example.org"
         date: "2009 - 2013"
         GPA: "3.9 out of 5.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          역량 적용 사례
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "추가 링크"
           url: "https://example.com"
-      - title: "High School"
+      - title: "역량3"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
+          name: "적용 분야 / 주 기술 스택"
           url: "https://example.org"
         GPA: "4.2 out of 5.0"
         featuredLink:
@@ -324,16 +318,10 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    title: "연락처"
+    content: 궁금한 점이 있으시거나 함께 이야기 나누고 싶으시다면 언제든 연락주세요!
+    btnName: 이메일 보내기
+    btnLink: mailto:seojinbag103@gmail.com
 
   footer:
     recentPosts:
