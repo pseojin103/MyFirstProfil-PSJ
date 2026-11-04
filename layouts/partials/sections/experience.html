@@ -62,7 +62,9 @@
                                                 
                                                 {{ if eq $jobIdx 0 }}
                                                     <small>-</small>
-                                                    <a href="{{ $companyUrl }}" target="_blank">{{ $company }}</a>
+                                                    <a href="{{ $companyUrl }}" class="text-decoration-none fw-bold">
+                                                        {{ $company }} <i class="fas fa-arrow-down-long ms-1 fs-6"></i>
+                                                    </a>
                                                 {{ end }}
                                             </div>
                                             <div class="d-block">
