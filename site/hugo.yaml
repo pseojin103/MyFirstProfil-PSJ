@@ -117,26 +117,15 @@ params:
   about:
     enable: true
     title: "학습목표 및 역량"
-    image: "/images/me.png"
     content: |-
       [2] 학습 목표 및 계획
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "계획 목록:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
-
-  customSections:
-    capabilities:
-    enable: true
-    title: "역량"
-    content: |-
-      [역량과 적용 사례]
+        - "1"
+        - "2"
+        - "3"
 
   # Experience
   experience:
