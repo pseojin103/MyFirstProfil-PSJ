@@ -111,26 +111,15 @@ params:
       - company: "대표 활동 1"
         companyUrl: "#projects"
         jobs:
-          - name: "핵심"
-            date: "활동 시기"
-            content: "활동 목적"
+          - name: "Hugo를 이용한 개인 포트폴리오 사이트 만들기"
+            date: "26-10 ~ 26-11, 완료 예정입니다."
+            content: "활동 목적 : 학교 과제입니다. 하지만 과제에만 그치지 않고
+                      웹사이트를 만들면서 발생하는 여러 변수 상황들을 경험하고 해결해나가며 성장하는 것을 목표로 하며 수행하려고 했습니다."
             info:
-              content: 산출물 관련 내용
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
-              customIcons:
-                - icon: /favic.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+              content: 대표활동을 누르면 결과물로 이동합니다.
+          - name: "역할 : 개인 수행과제였기 때문에 공동 작업은 없었습니다."
+            content: "수행 과정 : Hugo Themes를 통해 기본 테마를 선택한 뒤
+                      실제 사이트를 만들면서 모르는 내용은 AI를 활용해 채워나갔습니다. 사용한 AI는 제미나이였습니다. "
 
       - company: "대표 활동 2"
         companyUrl: "#projects"
