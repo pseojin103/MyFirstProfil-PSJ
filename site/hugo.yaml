@@ -119,59 +119,35 @@ params:
               content: 대표활동을 누르면 결과물로 이동합니다.
           - name: "역할 : 개인 수행과제였기 때문에 공동 작업은 없었습니다."
             content: "수행 과정 : Hugo Themes를 통해 기본 테마를 선택한 뒤
-                      실제 사이트를 만들면서 모르는 내용은 AI를 활용해 채워나갔습니다. 사용한 AI는 제미나이였습니다. "
+                      실제 사이트를 만들면서 모르는 내용은 AI를 활용해 채워나갔습니다. 사용한 AI는 제미나이였습니다. 
+                      일회성이 아닌 언제든지 확장할 수 있는 구조를 만들려했습니다.
+
+                      도구 선택 이유: LLM만을 사용하여 이해하며 넘어가고 싶어서 제미나이를 선택했습니다.
+                      "
+
 
       - company: "대표 활동 2"
         companyUrl: "#projects"
         jobs:
           - name: "추후 추가 예정입니다."
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
-            content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
+            
 
       - company: "대표 활동 3"
         companyUrl: "#projects"
         jobs: 
         - name: "추후 추가 예정입니다."
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /favic.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
+          
 
       - company: "대표 활동 4"
         companyUrl: "#projects"
         jobs:
         - name: "추후 추가 예정입니다."
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
 
       - company: "대표 활동 5"
         companyUrl: "#projects"
         jobs:
         - name: "추후 추가 예정입니다."
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+       
   # Education
   education:
     enable: true
