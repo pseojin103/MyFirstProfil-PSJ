@@ -116,9 +116,9 @@ params:
   # About
   about:
     enable: true
-    title: "학습목표 및 역량"
+    title: "학습목표"
     content: |-
-      [2] 학습 목표 및 계획
+      [2] 학습 목표 및 실행 계획
     skills:
       enable: true
       title: "계획 목록:"
@@ -130,16 +130,16 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "대표 활동"
     items:
-      - company: "Facebook"
+      - company: "대표 활동 1"
         companyUrl: "https://example.com"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "핵심"
+            date: "활동 시기"
+            content: "활동 목적"
             info:
-              content: Working as a senior software developer
+              content: 산출물 관련 내용
             featuredItems:
               fontAwesomeIcons:
                 - icon: fa-brands fa-react
@@ -156,10 +156,10 @@ params:
             date: "Jan 2022 - Dec 2023"
             content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
-      - company: "Amazon"
+      - company: "대표 활동 2"
         companyUrl: "https://example.com"
         jobs:
-          - name: "Software Developer"
+          - name: "추후 추가 예정입니다."
             date: "Sep 2020 - Dec 2021"
             info:
               content: I worked as a software developer for more than one year in Amazon.
@@ -169,10 +169,10 @@ params:
               - Lead backend developer for a product.
               - Created a frontend design for a product.
 
-      - company: "Apple"
+      - company: "대표 활동 3"
         companyUrl: "https://example.com"
         jobs: 
-        - name: "Junior Software Developer"
+        - name: "추후 추가 예정입니다."
           date: "Jan 2020 - Aug 2020"
           featuredItems:
             fontAwesomeIcons:
@@ -189,10 +189,10 @@ params:
             - Lead backend developer for a product.
             - Created a frontend design for a product.
 
-      - company: "Netflix"
+      - company: "대표 활동 4"
         companyUrl: "https://example.com"
         jobs:
-        - name: "UI/UX Designer"
+        - name: "추후 추가 예정입니다."
           date: "June 2017 - Nov 2019"
           content: |
             I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
@@ -200,29 +200,28 @@ params:
             - Lead backend developer for a product.
             - Created a frontend design for a product.
 
-      - company: "Google"
+      - company: "대표 활동 5"
         companyUrl: "https://example.com"
         jobs:
-        - name: "Product Designer"
+        - name: "추후 추가 예정입니다."
           date: "Feb 2016 - Mar 2017"
           content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "역량 및 적용 사례"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "[주요 역량 1: 예) C / Linux System Programming]"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "적용 분야 / 주 기술 스택"
+          url: "#"
+        date: "2026.03 - 현재"
+        GPA: "숙련도: 상"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          [3] 역량 적용 사례:
+          어떤 문제를 해결할 때 본 역량을 적용해 보았는지 사례 설명 작성.
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Massachusetts Institute of Technology"
