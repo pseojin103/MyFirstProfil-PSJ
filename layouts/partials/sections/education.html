@@ -48,17 +48,12 @@
                                     {{ .content | markdownify}}
 
                                 {{ if .image }}
-                                    {{ $image := resource.Get .image }}
-                                    {{ if $image }}
-                                        <div class="mt-3 text-center">
-                                            <img src="{{ $image.RelPermalink }}"
-                                                 alt="Minecraft Image"
-                                                 class="img-fluid rounded shadow-sm"
-                                                 style="max-height: 200px; object-fit: contain;">
-                                        </div>
-                                    {{ else }}
-                                        {{ warnf "Education image not found: %s" .image }}
-                                    {{ end }}
+                                    <div class="mt-3 text-center">
+                                        <img src="{{ .image | relURL }}"
+                                                alt="Minecraft Image"
+                                                class="img-fluid rounded shadow-sm"
+                                                style="max-height: 200px; object-fit: contain;">
+                                    </div>
                                 {{ end }}
                                 </div>
 
