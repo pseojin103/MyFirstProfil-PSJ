@@ -46,16 +46,18 @@
                                 {{ end }}
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
+                                </div>
 
                                 {{ with .image }}
-                                    <div class="mt-3 text-center">
-                                        <img src="{{ . | relURL }}"
-                                             alt="Minecraft Image"
-                                             class="img-fluid rounded shadow-sm"
-                                             style="max-height: 200px; object-fit: contain;">
-                                    </div>
-                                {{ end }}
+                                <div class="mt-3 text-center">
+                                    <img src="{{ . | relURL }}"
+                                         alt="Minecraft Image"
+                                         class="img-fluid rounded shadow-sm"
+                                         style="max-height: 200px; object-fit: contain;">
                                 </div>
+                                {{ end }}
+
+
 
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
