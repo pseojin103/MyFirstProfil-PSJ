@@ -571,12 +571,3 @@ header .navbar.animate {
     padding: .5rem 1rem;
 }
 
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
-section {
-    scroll-snap-align: start;
-    min-height: 100vh;
-}

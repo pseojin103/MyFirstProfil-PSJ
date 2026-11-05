@@ -1,9 +1,22 @@
-html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+html, body {
+    scroll-behavior: smooth !important;
+    scroll-snap-type: y mandatory !important;
+    overflow-y: scroll !important;
 }
 
 section {
-    scroll-snap-align: start;
-    min-height: 100vh;
+    scroll-snap-align: start !important;
+    scroll-snap-stop: always !important; 
+    min-height: 100vh !important;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        scroll-snap-type: none !important;
+    }
+    section {
+        scroll-snap-align: none !important;
+        min-height: auto !important;
+    }
 }
