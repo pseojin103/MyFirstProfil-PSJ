@@ -44,13 +44,14 @@
                                     </i> 
                                 </div>
                                 {{ end }}
+
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
                                 </div>
 
-                                {{ with .image }}
+                                {{ if .images }}
                                 <div class="mt-3 text-center">
-                                    <img src="{{ . | relURL }}"
+                                    <img src="{{ .images | relURL }}"
                                          alt="Minecraft Image"
                                          class="img-fluid rounded shadow-sm"
                                          style="max-height: 200px; object-fit: contain;">
