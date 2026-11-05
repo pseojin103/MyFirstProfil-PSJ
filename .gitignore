@@ -25,6 +25,8 @@ exampleSite/themes/
 *.tar.gz
 
 # Prepared Hugo Pages site
+!/layouts/
+!/layouts/**
 !/site/
 !/site/**
 !/.github/
