@@ -136,7 +136,7 @@ params:
           name: "JAVA 문법을 바탕으로한 객체지향 코드를 작성할 수 있다."
         content: |-
           역량 적용 사례: 마인크레프트(minecraft)의 초기 버전이 자바로 작성되었습니다. 멀티스레딩 기능을 지원하기에 복잡한 게임에서 유용합니다.
-        image: /images/minecraftPhoto.jpg
+        image: /minecraftPhoto.jpg
 
   # Achievements
   achievements:
