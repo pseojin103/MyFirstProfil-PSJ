@@ -45,21 +45,6 @@
                                 </div>
                                 {{ end }}
 
-                                <div class="py-1 education-content">
-                                    {{ .content | markdownify}}
-                                </div>
-
-                                <div class="mt-3 text-center" style="border: 2px dashed red; padding: 10px;">
-                                    <p style="color: red; font-size: 12px;">[디버그] 이미지 경로 값: "{{ .image }}"</p>
-                                    <img src="{{ .image | relURL }}"
-                                         alt="Minecraft Image"
-                                         class="img-fluid rounded shadow-sm"
-                                         style="max-height: 200px; object-fit: contain;">
-                                </div>
-                                
-
-
-
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
                                     <a href="{{ .featuredLink.url }}" class="btn">
