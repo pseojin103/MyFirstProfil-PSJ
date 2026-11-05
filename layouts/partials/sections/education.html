@@ -47,9 +47,9 @@
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
 
-                                {{ if .image }}
+                                {{ with .image }}
                                     <div class="mt-3 text-center">
-                                        <img src="{{ .image | relURL }}"
+                                        <img src="{{ . | relURL }}"
                                              alt="Minecraft Image"
                                              class="img-fluid rounded shadow-sm"
                                              style="max-height: 200px; object-fit: contain;">
