@@ -48,6 +48,16 @@
                                     {{ .content | markdownify}}
                                 </div>
 
+                                {{ if .image }}
+                                <div class="mt-3 text-center">
+                                    <img src="{{ .image | relURL }}"
+                                         alt="Minecraft Image"
+                                         class="img-fluid rounded shadow-sm"
+                                         style="max-height: 200px; object-fit: contain;">
+                                    </div>
+                                {{ end }}
+                                </div>
+                            
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
                                     <a href="{{ .featuredLink.url }}" class="btn">
